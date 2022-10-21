@@ -1,0 +1,47 @@
+@charset "UTF-8";
+
+/* Reset geral da página */
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Configurações do Body e HTML */
+
+body, html{
+    height: 100vh;
+    width: 100vw;
+}
+
+/* Colocando imagem de fundo */
+
+body{
+    background: url("../img/fundo_madeira.jpg") top center no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+main{
+    position: relative;
+    height: 100vh;
+}
+
+#celular{
+    position: relative;
+    left: 50%;
+    top: 50%;
+    width: 192px;
+    height: 393px;
+    transform: translate(-50%, -50%);
+
+}
+
+iframe#tela{
+    position: relative;
+    top: -350px;
+    left: 12px;
+    width: 167px;
+    height: 298px;
+}
